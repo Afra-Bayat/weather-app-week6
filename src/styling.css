@@ -1,0 +1,102 @@
+hr {
+    color: rgb(68, 68, 237);
+    border-width: 3px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Fredoka One", cursive;
+    font-weight: 900;
+    font-size: 58px;
+}
+
+main {
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+header img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+header .current-weather {
+    font-family: "PT Mono", monospace;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+form .city-input {
+    text-align: left;
+    padding: 7px;
+    border-color: 5px rgb(99, 99, 235);
+    border-radius: 10px;
+    margin: 10px auto 40px auto;
+}
+
+.timeline {
+    font-family: "Fredoka One", cursive;
+    color: rgb(101, 100, 100);
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+}
+
+.current-time {
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+
+.card-img-top {
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.card-text {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.seperator {
+    font-size: 20px;
+    color: #4444ed;
+}
+
+.container {
+    padding: 0;
+}
+
+.card {
+    background: rgb(217, 234, 245);
+    width: auto;
+    height: auto;
+}
+
+#celsius-icon {
+    background: white;
+    font-size: 30px;
+    color: #4444ed;
+    font-weight: bold;
+    margin-left: 10px;
+    border: none;
+}
+
+#current-temp {
+    font-size: 30px;
+    color: #4444ed;
+}
+
+#fahrenheit-icon {
+    background: white;
+    font-size: 30px;
+    color: #4444ed;
+    border: none;
+}
